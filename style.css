@@ -1,0 +1,17 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.background-img{
+    display:block;
+    width: 100%;
+    opacity:0.75;
+}
+
+.card-container{
+    width: 100%;
+    max-width: 400px;
+    margin:auto;
+    position: relative;
+    border-radius: 40px;
+}
