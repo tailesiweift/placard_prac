@@ -3,15 +3,101 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 .background-img{
-    display:block;
+    display: block;
+    top: 0;
+    border-bottom-left-radius: 13em 5em;
+    border-bottom-right-radius: 13em 5em;
     width: 100%;
     opacity:0.75;
+
 }
 
 .card-container{
     width: 100%;
     max-width: 400px;
-    margin:auto;
+    margin:50px auto;
     position: relative;
     border-radius: 40px;
+    background-color: lightgrey;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    height: 550px;
+}
+.top-container{
+    background-color:darkgrey;
+    position: relative;
+    height: 50vh;
+}
+.header-container{
+    background-color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width:300px;
+    
+    
+    
+}
+.card-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 150%);
+    margin: 15px auto;
+}
+
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+h2{
+    width: 100%;
+    text-align: center;;
+    margin: 30px auto;
+}
+ 
+#face-icon{
+    /* display:inline-block;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 5px auto; */
+    position: absolute;
+    /*display: block;
+    width: 100px;*/
+    left:50%;
+    transform: translate(-50%, 0);
+    font-size: 30px;
+     
+}
+.email-link:before{
+    content:'email';
+    font-family: material icons;
+}
+.web-link:before{
+    content:'home';
+    font-family: material icons;
+}
+.media-link:before{
+    content:'share';
+    font-family:material icons;
+}
+.email-link,
+.web-link,
+.media-link{
+    display:block;
+    text-align: left;
+    position: absolute;
+    left: 25%;
+}
+
+.card-footer
+{
+    margin-top: 35px;
+    margin-left: 42%;
+    font-size: 40px;
 }
